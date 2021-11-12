@@ -1,293 +1,411 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/style.css">
+    
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Bloodcloud</title>
+    
+  </head>
 
-  <title>blood cloud</title>
-  <style>
-    .click a {
-      display: flex;
-      align-items: center;
-      margin: 10px;
-    }
-
-    .register {
-      display: inline flex;
-      flex-wrap: wrap;
-      margin-left: 230px;
-      margin-top: ;
-    }
-    .card {
-      margin:
-        display:flex;
-      align-self: auto;
-      padding: 10px;
-    }
-    .content{
-      margin-top: 50px;
-    }
-
-    .content1  {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding: 50px;
-    }
-    .content1 div {
-      margin: 60px;
-    }
-    .content2  {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding: 50px;
-    }
-    .content2 div {
-      margin: 60px;
-    }
-    .content3  {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding: 50px;
-    }
-
-    .content3 div {
-      margin: 60px;
-    }
-    .content4  {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding: 50px;
-    }
-
-    .content4 div {
-      margin: 60px;
-    }
-    footer{
-      background: #000;
-      color: burlywood;
-      height: 90px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      font-size: medium;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-    }
-    .too{
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      table-layout: 100px;
-      margin: 20px;
-      
-    }
-    .too table{
-      background-color: crimson;
-      font-display: 20px;
-    flex: 0 0 auto;
-    width: 50.333333%;
-    ta
-    }
-  </style>
-</head>
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#FBF4E9;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="bloodcloud/images/default1.png" width="200px" height="auto"
-            alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#"
+          ><img src="images/default1.png" width="200px" height="auto" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0";">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="bootstrap.html">HOME</a>
+              <a
+                class="nav-link active"
+                style="color: black;"
+                aria-current="page"
+                href="bootstrap.html"
+                >HOME</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="bloodcloud/Bloodbank.html">BLOOD BANK</a>
+              <a
+                class="nav-link active"
+                style="color: black;"
+                aria-current="page"
+                href="bloodcloud/Bloodbank.html"
+                >BLOOD BANK</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="bloodcloud/aboutus.html">HOW IT WORKS</a>
+              <a
+                class="nav-link active"
+                style="color: black;"
+                aria-current="page"
+                href="bloodcloud/aboutus.html"
+                >HOW IT WORKS</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="bloodcloud/events.html">EVENTS</a>
+              <a
+                class="nav-link active"
+                style="color: black;"
+                aria-current="page"
+                href="bloodcloud/events.html"
+                >EVENTS</a
+              >
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="more.html" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle"
+                style="color: black;"
+                href="more.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 MORE
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Appointments</a></li>
-                <li><a class="dropdown-item" href="#">Donations </a></li>
+                
+                <li><a class="dropdown-item"  style="color: black;" href="#">Appointments</a></li>
+                <li><a class="dropdown-item"  style="color: black;" href="#">Donations </a></li>
                 <li>
-                  <hr class="dropdown-divider">
+                  <hr class="dropdown-divider" />
                 </li>
-                <li><a class="dropdown-item" href="#">Gallery</a></li>
+                <li><a class="dropdown-item"  style="color: black;" href="#">Gallery</a></li>
               </ul>
-
-
+            </li>
           </ul>
+
           <form class="d-flex">
-            <button class="btn btn-outline-success" type="submit"><a href="../bloodcloud/login.html">LOGIN</a></button>
-            <button class="btn btn-outline-success" type="submit">REGISTER</button>
+            <button class="btn btn-outline-success" type="submit"  style="color: black;">
+              <a href="login.html">LOGIN</a>
+            </button>
+            <button class="btn btn-outline-success" type="submit"  style="color: black;">
+              <a href ="register.html">REGISTER</a>
+            </button>
           </form>
         </div>
       </div>
     </nav>
-  </header>
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://source.unsplash.com/random/technology" width="2400px" height="400px" alt="">
+
+    <header>
+      <div id="indicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#indicators" data-slide-to="0" class="active"></li>
+          <li data-target="#indicators" data-slide-to="1"></li>
+          <li data-target="#indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item active"
+            style="
+              background-image: url('https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+            "
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Image one</h3>
+              <p class="lead">Some description about the first slide</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80');
+            "
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Image two</h3>
+              <p class="lead">Some description about the second slide</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+            "
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Image three</h3>
+              <p class="lead">Some description about the third slide</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#indicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#indicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
       </div>
-      <div class="carousel-item">
-        <img src="bloodcloud/images/AdobeStock_450904754_Preview.jpeg" height="400px" width="auto" class="d-block w-100"
-          alt="...">
+    </header>
+
+    <br />
+    <div class="register">
+      <div
+        class="card text-center bg-dark text-white"
+        style="width: 18rem; margin-top: 80px"
+      >
+        <div class="card-body">
+          <h3 class="card-title">BE A DONOR</h3>
+          <p class="card-text">Contribute towards saving lives.</p>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="bloodcloud/images/main.png" height="400px" class="d-block w-100" alt="...">
+      <div
+        class="card text-center bg-dark text-white"
+        style="width: 18rem; margin-left: 140px; margin-top: 80px"
+      >
+        <div class="card-body">
+          <h3 class="card-title">FIND BLOOD</h3>
+          <p class="card-text">Easiest way to saving lives.</p>
+        </div>
       </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <br>
-  <div class="register">
-    <div class="card text-center bg-dark text-white  " style="width: 18rem;card;">
-      <div class="card-body">
-        <h3 class="card-title">BE A DONOR</h3>
-        <p class="card-text">Contribute towards saving lives.</p>
-        <a href="#" class="btn btn-primary">Click here!</a>
-      </div>
-    </div>
-    <div class="card text-center bg-dark text-white   " style="width: 18rem;">
-      <div class="card-body">
-        <h3 class="card-title">FIND BLOOD</h3>
-        <p class="card-text">Easiest way to saving lives.</p>
-        <a href="#" class="btn btn-primary">Click here!</a>
+      <div
+        class="card text-center bg-dark text-white"
+        style="width: 18rem; margin-left: 137px; margin-top: 80px"
+      >
+        <div class="card-body">
+          <h3 class="card-title">BE A VOULUNTEER</h3>
+          <p class="card-text">Supporting towards lives .</p>
+        </div>
       </div>
     </div>
-    <div class="card text-center bg-dark text-white" style="width: 18rem;">
-      <div class="card-body">
-        <h3 class="card-title">BE A VOULUNTEER</h3>
-        <p class="card-text"> Supporting towards lives .</p>
-        <a href="#" class="btn btn-primary">Clich here!</a>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- THREE CONTAINERS IN THE MIDDLE  -->
+
+    <div class="rapid">
+      <div class="container">
+        <div class="card" style="margin-right: 50px; margin-left: -30px">
+          <div class="face face1">
+            <div class="content">
+              <div class="icon">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content" style="margin-top: 20px">
+              <h3>
+                <a
+                  href="https://www.linkedin.com/in/adamdipinto/"
+                  target="_blank"
+                  >Start Your RapidPass</a
+                >
+              </h3>
+              <p>
+                Donating blood today? Complete your pre-reading and health
+                history questions online using any device, before visiting your
+                blood drive location.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="margin-right: 50px">
+          <div class="face face1">
+            <div class="content">
+              <div class="icon">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="face face2">
+            <div
+              class="content"
+              style="margin-top: 9px; margin-right: -10px; margin-right: -10px"
+            >
+              <h3 style="margin-bottom: 1px">
+                <a href="https://twitter.com/AdamDipinto" target="_blank"
+                  >Am I Eligible to Donate Blood?</a
+                >
+              </h3>
+              <p>
+                Are you eligible for blood donation? Find out about the
+                eligibility requirements to donate blood today. Learn about
+                general health, travel, medications, tattoos, and more.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="margin-right: -100px">
+          <div class="face face1">
+            <div class="content">
+              <div class="icon">
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content" style="margin-top: 2px">
+              <h3>
+                <a href="https://github.com/atom888" target="_blank"
+                  >Help Sickle Cell Patients</a
+                >
+              </h3>
+              <p>
+                Blood donors who are Black play a critical role in helping
+                sickle cell disease patients receive the most compatible blood
+                match.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <br>
-  <div class="content">
-    <div class="content1">
+    <br />
+    <br />
 
-      <img src="https://source.unsplash.com/random/blood" width="1200px" height="300px" alt="">
-      <div>
-        <h2>SHOULD WE DONATE?</h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempora explicabo iusto minus. Quas dolorem
-        commodi quidem, maxime adipisci et corporis a blanditiis recusandae atque, dolor laboriosam dolores perferendis
-        aliquid facilis! Maiores vero eos tenetur dicta? Eius expedita vitae architecto rem, aperiam ducimus tenetur
-        nihil
-        quibusdam dolorum atque facere consequuntur fugit laborum natus voluptatum modi. Commodi rerum quos esse fugit
-        assumenda autem nemo vitae, exercitationem mollitia vel illo labore. Pariatur?
+    <!-- FOR CONTENT  -->
+
+    <div class="content">
+      <div class="content1">
+        <img
+          src="https://source.unsplash.com/random/blood"
+          width="1200px"
+          height="300px"
+          alt=""
+        />
+        <div>
+          <h2>SHOULD WE DONATE?</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          tempora explicabo iusto minus. Quas dolorem commodi quidem, maxime
+          adipisci et corporis a blanditiis recusandae atque, dolor laboriosam
+          dolores perferendis aliquid facilis! Maiores vero eos tenetur dicta?
+          Eius expedita vitae architecto rem, aperiam ducimus tenetur nihil
+          quibusdam dolorum atque facere consequuntur fugit laborum natus
+          voluptatum modi. Commodi rerum quos esse fugit assumenda autem nemo
+          vitae, exercitationem mollitia vel illo labore. Pariatur?
+        </div>
       </div>
 
+      <div class="content2">
+        <div>
+          <h2>HEALTH PRECAUTIONS</h2>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
+          consequuntur nihil possimus perferendis dolor odit sint reiciendis
+          praesentium, nam tempore harum totam, doloremque, vero autem. Pariatur
+          repellendus autem rem quis excepturi ducimus in nihil vitae.
+          Cupiditate cum quidem, sunt ipsam necessitatibus, quod quas amet a
+          omnis, aliquam hic laborum ipsum dolore molestias accusantium qui
+          rerum aspernatur nostrum unde iusto porro ducimus tenetur asperiores?
+          Reprehenderit vitae blanditiis earum velit repellendus. Dicta!
+        </div>
+        <img
+          src="https://source.unsplash.com/random/technology"
+          width="1200px"
+          height="300px"
+          alt=""
+        />
+      </div>
+      <div class="content3">
+        <img
+          src="https://source.unsplash.com/random/human"
+          width="1200px"
+          height="300px"
+          alt=""
+        />
+        <div>
+          <h2>BLOOD CHART</h2>
+
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
+          consequuntur nihil possimus perferendis dolor odit sint reiciendis
+          praesentium, nam tempore harum totam, doloremque, vero autem. Pariatur
+          repellendus autem rem quis excepturi ducimus in nihil vitae.
+          Cupiditate cum quidem, sunt ipsam necessitatibus, quod quas amet a
+          omnis, aliquam hic laborum ipsum dolore molestias accusantium qui
+          rerum aspernatur nostrum unde iusto porro ducimus tenetur asperiores?
+          Reprehenderit vitae blanditiis earum velit repellendus. Dicta!
+        </div>
+      </div>
+      <div class="content4">
+        <div>
+          <h2>BLOOD DATA</h2>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
+          consequuntur nihil possimus perferendis dolor odit sint reiciendis
+          praesentium, nam tempore harum totam, doloremque, vero autem. Pariatur
+          repellendus autem rem quis excepturi ducimus in nihil vitae.
+          Cupiditate cum quidem, sunt ipsam necessitatibus, quod quas amet a
+          omnis, aliquam hic laborum ipsum dolore molestias accusantium qui
+          rerum aspernatur nostrum unde iusto porro ducimus tenetur asperiores?
+          Reprehenderit vitae blanditiis earum velit repellendus. Dicta!
+        </div>
+        <img
+          src="https://source.unsplash.com/random/car"
+          width="1200px"
+          height="300px"
+          alt=""
+        />
+      </div>
     </div>
+    <footer>
+      <div class="foot">
+        <a href="">Tips | Refer a Friend | Privacy Policy</a>
+        <p>© 2021 Copyright V India Blood Donations Private Limited</p>
+      </div>
+    </footer>
 
-    <div class="content2">
-      <div>
-      <h2>HEALTH PRECAUTIONS</h2>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde consequuntur nihil possimus perferendis dolor odit
-      sint reiciendis praesentium, nam tempore harum totam, doloremque, vero autem. Pariatur repellendus autem rem quis
-      excepturi ducimus in nihil vitae. Cupiditate cum quidem, sunt ipsam necessitatibus, quod quas amet a omnis,
-      aliquam hic laborum ipsum dolore molestias accusantium qui rerum aspernatur nostrum unde iusto porro ducimus
-      tenetur asperiores? Reprehenderit vitae blanditiis earum velit repellendus. Dicta!
-    </div>
-    <img src="https://source.unsplash.com/random/technology" width="1200px" height="300px" alt="">
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script type="text/javascript" src="JS/index.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
-  
-    </div>
-    <div class="content3">
-      
-      <img src="https://source.unsplash.com/random/human" width="1200px" height="300px" alt="">
-      <div>
-        <h2>BLOOD CHART</h2>
-      
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde consequuntur nihil possimus perferendis dolor odit
-      sint reiciendis praesentium, nam tempore harum totam, doloremque, vero autem. Pariatur repellendus autem rem quis
-      excepturi ducimus in nihil vitae. Cupiditate cum quidem, sunt ipsam necessitatibus, quod quas amet a omnis,
-      aliquam hic laborum ipsum dolore molestias accusantium qui rerum aspernatur nostrum unde iusto porro ducimus
-      tenetur asperiores? Reprehenderit vitae blanditiis earum velit repellendus. Dicta!
-    </div>
-    </div>
-    <div class="content4">
-      <div>
-      <h2>BLOOD DATA</h2>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde consequuntur nihil possimus perferendis dolor odit
-      sint reiciendis praesentium, nam tempore harum totam, doloremque, vero autem. Pariatur repellendus autem rem quis
-      excepturi ducimus in nihil vitae. Cupiditate cum quidem, sunt ipsam necessitatibus, quod quas amet a omnis,
-      aliquam hic laborum ipsum dolore molestias accusantium qui rerum aspernatur nostrum unde iusto porro ducimus
-      tenetur asperiores? Reprehenderit vitae blanditiis earum velit repellendus. Dicta!
-    </div>
-      <img src="https://source.unsplash.com/random/car" width="1200px" height="300px" alt="">
-    </div>
-  </div>
-  <footer>
-  <div class="foot">
-      <a href="">Tips | Refer a Friend | Privacy Policy</a>
-    <p>© 2021 Copyright V India Blood Donations Private Limited</p>
-  </div>
-  </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="less.js" type="text/javascript"></script>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
 
-
-
-
-
-
-
-
-
-  <!-- Optional JavaScript; choose one of the two! -->
-
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-</body>
-
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
