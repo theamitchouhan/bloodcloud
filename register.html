@@ -1,12 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+ 
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script type="text/javascript" src="JS/index.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/style.css">
+
+
+    <title>Blood Cloud||Login</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Mukta');
+body{
+  font-family: 'Mukta', sans-serif;
+	height:100vh;
+	min-height:550px;
+	background-image: url(http://www.planwallpaper.com/static/images/Free-Wallpaper-Nature-Scenes.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+    overflow-y: hidden;
+}
+
+ 
+    </style>
+            
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#FBF4E9;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"
+        ><img src="images/default1.png" width="200px" height="auto" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0";">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              style="color: black;"
+              aria-current="page"
+              href="bootstrap.html"
+              >HOME</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              style="color: black;"
+              aria-current="page"
+              href="bloodcloud/Bloodbank.html"
+              >BLOOD BANK</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              style="color: black;"
+              aria-current="page"
+              href="bloodcloud/aboutus.html"
+              >HOW IT WORKS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              style="color: black;"
+              aria-current="page"
+              href="bloodcloud/events.html"
+              >EVENTS</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              style="color: black;"
+              href="more.html"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              MORE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              
+              <li><a class="dropdown-item"  style="color: black;" href="#">Appointments</a></li>
+              <li><a class="dropdown-item"  style="color: black;" href="#">Donations </a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item"  style="color: black;" href="#">Gallery</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="login-reg-panel">
+    <div class="login-info-box">
+      <h2>Have an account?</h2>
+      <p>Lorem ipsum dolor sit amet</p>
+      <label id="label-register" for="log-reg-show">Login</label>
+      <input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
+    </div>
+                
+      <div class="register-info-box">
+        <h2>Don't have an account?</h2>
+        <p>Lorem ipsum dolor sit amet</p>
+        <label id="label-login" for="log-login-show">Register</label>
+        <input type="radio" name="active-log-panel" id="log-login-show">
+      </div>
+        
+      <div class="white-panel">
+        <div class="login-show">
+            <script type="text/javascript" src="JS/index.js"></script>
+              <h2>LOGIN</h2>
+              <input type="text" placeholder="Email">
+              <input type="password" placeholder="Password">
+              <input type="button" value="Login">
+              <a href="">Forgot password?</a>
+        </div>
+        <div class="register-show">
+          <h2>REGISTER</h2>
+          <input type="text" placeholder="Email">
+          <input type="password" placeholder="Password">
+          <input type="password" placeholder="Confirm Password">
+          <input type="button" value="Register">
+        </div>
+        
+      </div>
+    </div>  
+  
+  </body>
+ 
 </html>
