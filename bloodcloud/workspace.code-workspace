@@ -3,9 +3,5 @@
 		{
 			"path": ".."
 		}
-	],
-	"settings": {
-		"git.ignoreLimitWarning": true,
-		"html.validate.styles": false
-	}
+	]
 }

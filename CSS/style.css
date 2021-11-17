@@ -83,15 +83,6 @@
 .content4 div {
  margin: 60px;
 }
-footer{
- background: #000;
- color: burlywood;
- height: 90px;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- font-size: medium;
- display: flex;
- justify-content: center;
- align-items: center;
 
 }
 .too{
@@ -779,3 +770,1143 @@ a{
     text-decoration:none;
     color:#2c7715;
   }
+
+
+
+
+
+
+  /* FOOTER  */
+
+
+  
+  
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+  
+  .content-footer {
+    height: 70vh; }
+  
+  .footer-20192 {
+    position: relative;
+    color: #fff;
+    padding: 7rem 0;
+    background-color: #141d2a; }
+    .footer-20192 .container-footer {
+      position: relative; }
+    .footer-20192 h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: 0;
+      line-height: 1.5; }
+    .footer-20192 .links li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+      display: block; }
+      .footer-20192 .links li a {
+        color: #666873; }
+        .footer-20192 .links li a:hover {
+          color: #fff; }
+    .footer-20192 .social li {
+      display: inline-block;
+      position: relative; }
+      .footer-20192 .social li a {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        background-color: #8186d5;
+        color: #fff; }
+        .footer-20192 .social li a > span {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+    .footer-20192 .footer-logo {
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: .1rem; }
+    .footer-20192 .copyright {
+      color: #666873; }
+    .footer-20192 .cta {
+      -webkit-box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+      box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+      padding: 20px;
+      background-color: #8186d5;
+      top: -150px;
+      position: relative; }
+      .footer-20192 .cta h2, .footer-20192 .cta h3 {
+        line-height: 1.5; }
+      .footer-20192 .cta h3 {
+        font-size: 20px; }
+  
+
+
+
+
+
+  /* BLOODBANK PAGE */
+
+
+  .rectangle-h{
+    height: 250px;
+    width: 100%;
+    background-color: #911F27;
+    
+  }
+
+  .rectangle-v{
+    height:400px ;
+    width:1300px;
+    background-color: #9E9E9E; 
+    margin-left: 110px;
+    padding-top:100px;
+    margin-top:-100px;
+  }
+
+  #dropdownMenuButton-state{
+   margin-left: 50px;
+   margin-top: 50px;
+   padding-left: 100px;
+   padding-right: 100px;
+  }
+
+  #dropdownMenuButton-dis{
+    margin-top: 50px;
+    margin-left:50px;
+    padding-left: 100px;
+    padding-right: 100px; 
+  }
+
+  .form-group{
+    margin-top:-68px;
+    margin-left:850px;
+    margin-right:50px;
+  }
+
+
+
+
+
+
+
+
+
+/* AM I ELIGIBLE  */
+
+@import 'https://fonts.googleapis.com/css?family=Lily+Script+One';
+body {
+  background: #eee;
+  font-family: 'Lily Script One';
+}
+
+.card-weight {
+  position: absolute;
+  top: 550px;
+  left: 475px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-weight {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-weight:hover .content-weight {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-weight,
+.back-weight {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-weight {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+
+.card-age {
+  position: absolute;
+  top: 550px;
+  left: 785px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-age {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-age:hover .content-age {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-age,
+.back-age {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-age {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+
+.card-pulse {
+  position: absolute;
+  top: 550px;
+  left: 1095px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-pulse {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-pulse:hover .content-pulse {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-pulse,
+.back-pulse {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-pulse {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+
+.card-blood {
+  position: absolute;
+  top: 838px;
+  left: 325px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-blood{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-blood:hover .content-blood {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-blood,
+.back-blood {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-blood {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+
+.card-child {
+  position: absolute;
+  top: 838px;
+  left: 635px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-child {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-child:hover .content-child {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-child,
+.back-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-child {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+
+.card-hemo {
+  position: absolute;
+  top: 838px;
+  left: 945px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-hemo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-hemo:hover .content-hemo {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-hemo,
+.back-hemo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-hemo {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+
+.card-malaria {
+  position: absolute;
+  top: 838px;
+  left: 1255px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-malaria {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-malaria:hover .content-malaria {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-malaria,
+.back-malaria {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-malaria {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+.card-immunization-vaccination {
+  position: absolute;
+  top: 1126px;
+  left: 475px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-immunization-vaccination {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-immunization-vaccination:hover .content-immunization-vaccination {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-immunization-vaccination,
+.back-immunization-vaccination {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-immunization-vaccination {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+.card-tattoo {
+  position: absolute;
+  top: 1126px;
+  left: 785px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-tattoo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-tattoo:hover .content-tattoo {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-tattoo,
+.back-tattoo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-tattoo {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+.card-scars-skins {
+  position: absolute;
+  top: 1126px;
+  left: 1095px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-scars-skins {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-scars-skins:hover .content-scars-skins {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-scars-skins,
+.back-scars-skins {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-scars-skins {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+.card-surgery {
+  position: absolute;
+  top: 1414px;
+  left: 325px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-surgery {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-surgery:hover .content-surgery {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-surgery,
+.back-surgery {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-surgery {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+.card-cancer {
+  position: absolute;
+  top: 1414px;
+  left: 635px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-cancer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-cancer:hover .content-cancer {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-cancer,
+.back-cancer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-cancer {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+.card-infection {
+  position: absolute;
+  top: 1414px;
+  left: 945px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-infection {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-infection:hover .content-infection {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-infection,
+.back-infection {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-infection {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+.card-heart-disease{
+  position: absolute;
+  top: 1414px;
+  left: 1255px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-heart-disease {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-heart-disease:hover .content-heart-disease {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-heart-disease,
+.back-heart-disease {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-heart-disease {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+
+.card-dentist {
+  position: absolute;
+  top: 1702px;
+  left: 475px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-dentist {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-dentist:hover .content-dentist {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-dentist,
+.back-dentist {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-dentist {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+} 
+
+
+
+.card-other-disease{
+  position: absolute;
+  top: 1702px;
+  left: 785px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-other-disease {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-other-disease:hover .content-other-disease {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-other-disease,
+.back-other-disease {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-other-disease {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+} 
+
+
+
+.card-high-risk {
+  position: absolute;
+  top: 1702px;
+  left: 1095px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-high-risk {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-high-risk:hover .content-high-risk {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-high-risk,
+.back-high-risk {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-high-risk {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+} 
+
+
+
+.card-diabetes {
+  position: absolute;
+  top: 1990px;
+  left: 325px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-diabetes {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-diabetes:hover .content-diabetes {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-diabetes,
+.back-diabetes {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-diabetes {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+} 
+
+
+.card-medication {
+  position: absolute;
+  top: 1990px;
+  left: 635px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-medication {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-medication:hover .content-medication {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-medication,
+.back-medication {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-medication {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+} 
+
+
+
+.card-drugs {
+  position: absolute;
+  top: 1990px;
+  left: 945px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-drugs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-drugs:hover .content-drugs {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-drugs,
+.back-drugs {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-drugs {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+} 
+
+
+
+.card-info {
+  position: absolute;
+  top: 1990px;
+  left: 1255px;
+  width: 250px;
+  height: 250px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-info:hover .content-info {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-info,
+.back-info {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  color: #03446A;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-info {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+} 
