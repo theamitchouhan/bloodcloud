@@ -7,32 +7,15 @@
 });
 
 
+const signIn = document.querySelector('#signIn');
+const signUp = document.querySelector('#signUp');
+const overlay_container = document.querySelector('.container .overlay-container');
+const overlay = document.querySelector(' .container .overlay-container .overlay');
 
-    $(document).ready(function(){
-        $('.login-info-box').fadeOut();
-        $('.login-show').addClass('show-log-panel');
-    });
-    
-    
-    $('.login-reg-panel input[type="radio"]').on('change', function() {
-        if($('#log-login-show').is(':checked')) {
-            $('.register-info-box').fadeOut(); 
-            $('.login-info-box').fadeIn();
-            
-            $('.white-panel').addClass('right-log');
-            $('.register-show').addClass('show-log-panel');
-            $('.login-show').removeClass('show-log-panel');
-            
-        }
-        else if($('#log-reg-show').is(':checked')) {
-            $('.register-info-box').fadeIn();
-            $('.login-info-box').fadeOut();
-            
-            $('.white-panel').removeClass('right-log');
-            
-            $('.login-show').addClass('show-log-panel');
-            $('.register-show').removeClass('show-log-panel');
-        }
-    });
-      
-    
+signUp.addEventListener('click', ()=> {
+    container.classList.add("right-panel-active");
+});
+
+signIn.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});  
